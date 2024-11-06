@@ -1,0 +1,177 @@
+home.welcome: "Selamat Datang"
+uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.buttonLabel: "Lihat Lainnya"
+uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.sliderTitle: "Perdagangkan toko Anda"
+uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.buttonLabel: "Lihat Lainnya"
+uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.sliderTitle: "Kategori produk contoh"
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.tabTitle: "Baru saja ditambahkan"
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.buttonLabel: "Belanja sekarang"
+uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.headerTitle: "Belanja aplikasi berdasarkan kategori"
+uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.productGroupsTabTitle: "Grup Produk"
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.tabTitle: "Produk Pilihan"
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.buttonLabel: "Belanja sekarang"
+uieditor.home.ProductGroups:orderable:f6909f7e-7f96-4806-a252-b1d8ba399148.productGroupsTabTitle: "Grup Produk"
+uieditor.home.ProductGroups:orderable:f6909f7e-7f96-4806-a252-b1d8ba399148.headerDescription: "Toko serba ada untuk segala langganan perangkat lunak bisnis Anda"
+uieditor.home.ProductGroups:orderable:f6909f7e-7f96-4806-a252-b1d8ba399148.headerTitle: "Belanja aplikasi berdasarkan kategori"
+uieditor.menuItem.title.78fd1c6c-ba78-43cf-b764-2d0c710065e5: "Syarat & Ketentuan"
+uieditor.menuItem.title.f5223632-235f-48df-b096-ea3463b20101: "Kebijakan Privasi"
+uieditor.menuItem.title.93edf021-a3e3-4686-b686-e7e41e84f61e: "Pusat Bantuan"
+uieditor.menuItem.title.852ddfca-cb29-431b-91a8-c53849bce6aa: "Hubungi Kami"
+uieditor.menuItem.title.93edf021-a3e3-4686-b686-e7e41e84f82f: "Pemilih Bahasa"
+uieditor.menuItem.title.50b2a008-d1df-42fa-9bdf-17a8446210d6: "Tautan cepat"
+uieditor.menuItem.title.89b4d743-b405-43a0-b6ab-9877fcdee455: "Tentang Kami"
+uieditor.menuItem.title.e96e3929-2bea-4283-8139-9fee0053487c: "Pelanggan"
+uieditor.menuItem.title.03a90d85-ce76-4ba6-bafb-89abdd8e1bc6: "Platform"
+uieditor.menuItem.title.50b2a008-d1df-42fa-8bdf-17a8446210d7: "Kategori Toko"
+uieditor.menuItem.title.89b4d743-b405-43a0-86ab-9877fcdee475: "Kategori 1"
+uieditor.menuItem.title.e96e3929-2bea-4283-1139-9fee00534872: "Kategori 2"
+uieditor.menuItem.title.03a90d85-ce76-4ba6-bafb-28abdd8e1bca: "Kategori 3"
+uieditor.menuItem.title.2a16c9dc-ce14-4acf-b8b7-2302cc79de7a: "Tentang Kami"
+uieditor.menuItem.title.2af435e4-3f06-416c-9fc2-a53a18fab456: "Tambahkan tautan ke halaman Tentang Anda"
+uieditor.menuItem.title.0bd21919-a513-4518-b4c0-728c5a167287: "Solusi"
+uieditor.menuItem.title.8dfd1b51-b032-40bf-b925-0b142d57f9ab: "Tambahkan tautan ke situs web korporat Anda"
+uieditor.menuItem.title.d2414b18-0f57-40f3-8aab-5f72e13d8899: "Sisipkan tautan toko atau eksternal"
+uieditor.menuItem.title.157f07c0-ace7-4787-8f74-eb82641ee568: "Telusuri kategori"
+uieditor.menuItem.title.a7113cc8-a1bc-4e56-b5a4-a57001f8ec78: "Hubungi kami"
+uieditor.menuItem.title.46ca9ab2-0fc5-4533-b561-d0a6fdebd3db: "Buletin"
+uieditor.menuItem.title.8b8d3953-2257-43f7-97db-46db02c08b81: "Perusahaan"
+uieditor.menuItem.title.ac106ade-9286-43eb-91d3-4b2a9d46321b: "Kepemimpinan"
+uieditor.menuItem.title.d6af892e-bbd8-4211-9bed-d5e7b4ba2684: "Ekosistem mitra"
+uieditor.menuItem.title.09729997-817e-47a2-a2ae-baf308df1899: "Tambahkan tautan lain di bar ini"
+uieditor.menuItem.title.15495df4-0798-44bb-a7f3-acc34ae2d269: "Tambahkan tautan toko atau eksternal"
+uieditor.menuItem.title.1376c96c-7e34-41ea-aabf-be03a9426c29: "Tautan 1"
+uieditor.menuItem.title.212818b0-6987-4941-8786-1925073e7f6f: "Lini produk"
+uieditor.global.Footer.copyright: "© 2023 AppDirect, Inc."
+uieditor.global.Header.HeaderAnnouncementBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.announcementBarMessage: "Gunakan ruang ini untuk mengumumkan pesan penting ke pelanggan Anda. Anda juga dapat menambahkan [tautan]"
+uieditor.global.Header.HeaderSearchBar.searchPlaceholder: "Cari semua produk"
+uieditor.sfbComponent.footer.newsletterText.defaultValue: "Tambahkan teks kustom Anda untuk mengundang orang bergabung di buletin Anda"
+uieditor.sfbComponent.footer.newsletterTitle.defaultValue: "Ikuti terus perkembangan berita terbaru kami"
+uieditor.sfbComponent.footer.newsletterButtonLabel.defaultValue: "Langgan"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.1: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.3: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.4: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.1: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.2: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.3: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.4: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.1: "Aplikasi Bisnis"
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.2: "Manajemen Waktu"
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.3: "Keuangan & Penganggaran"
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.4: "Produktivitas"
+prefix.uieditor.home.ProductGroups:orderable.title.f6909f7e-7f96-4806-a252-b1d8ba399148.1: "Judul"
+prefix.uieditor.home.ProductGroups:orderable.title.f6909f7e-7f96-4806-a252-b1d8ba399148.2: "Judul"
+prefix.uieditor.home.ProductGroups:orderable.title.f6909f7e-7f96-4806-a252-b1d8ba399148.3: "Judul"
+prefix.uieditor.home.ProductGroups:orderable.title.f6909f7e-7f96-4806-a252-b1d8ba399148.4: "Judul"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.1: "Pelajari selengkapnya"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.2: "Pelajari selengkapnya"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.3: "Pelajari selengkapnya"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.4: "Pelajari selengkapnya"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.f6909f7e-7f96-4806-a252-b1d8ba399148.1: "Label tombol"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.f6909f7e-7f96-4806-a252-b1d8ba399148.2: "Label tombol"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.f6909f7e-7f96-4806-a252-b1d8ba399148.3: "Label tombol"
+prefix.uieditor.home.ProductGroups:orderable.buttonLabel.f6909f7e-7f96-4806-a252-b1d8ba399148.4: "Label tombol"
+prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.1: "Semua aplikasi bisnis terbaik yang Anda perlukan untuk kerja sehari-hari."
+prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.2: "Kelola waktu, raih lebih dengan produk-produk ini."
+prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.3: "Kelola uang dengan efektif melalui penganggaran dengan produk-produk ini."
+prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.4: "Fokus pada tugas, hilangkan gangguan dengan produk-produk ini."
+prefix.uieditor.home.ProductGroups:orderable.description.f6909f7e-7f96-4806-a252-b1d8ba399148.1: "Deskripsi"
+prefix.uieditor.home.ProductGroups:orderable.description.f6909f7e-7f96-4806-a252-b1d8ba399148.2: "Deskripsi"
+prefix.uieditor.home.ProductGroups:orderable.description.f6909f7e-7f96-4806-a252-b1d8ba399148.3: "Deskripsi"
+prefix.uieditor.home.ProductGroups:orderable.description.f6909f7e-7f96-4806-a252-b1d8ba399148.4: "Deskripsi"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.1: "Grup-1"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.2: "Grup-2"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.3: "Grup-3"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.4: "Grup-4"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.1: "Tidak berjudul-1"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.2: "Tidak berjudul-2"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.3: "Tidak berjudul-3"
+prefix.uieditor.home.ProductGroups:orderable.panelTitle.f6909f7e-7f96-4806-a252-b1d8ba399148.4: "Tidak berjudul-4"
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.customProductDescription: ""
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.tabHeading: ""
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.productHeading: ""
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.customProductTitle: ""
+uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.imageHeading: ""
+prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.2: ""
+uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.headerDescription: ""
+uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.displaySettings: ""
+uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.contentSettings: ""
+uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.componentSettings: ""
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.imageHeading: ""
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.productHeading: ""
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.customProductDescription: ""
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.customProductTitle: ""
+uieditor.home.FeaturedProduct:orderable:61ba7fd7-be32-4501-b88b-6708155111c6.tabHeading: ""
+uieditor.home.ProductGroups:orderable:f6909f7e-7f96-4806-a252-b1d8ba399148.displaySettings: ""
+uieditor.home.ProductGroups:orderable:f6909f7e-7f96-4806-a252-b1d8ba399148.componentSettings: ""
+uieditor.home.ProductGroups:orderable:f6909f7e-7f96-4806-a252-b1d8ba399148.contentSettings: ""
+errorPage.links.home: null
+errorPage.links.message: null
+errorPage.links.previousPage: null
+errorPage.title: null
+errorPage.message: null
+errorPage.subtitle: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.text: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.buttonLabel: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.searchBarHeading: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.contentSettingsHeading: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.foregroundImageSettingsHeading: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.displaySettingsHeading: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.contentHeading: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.tagline: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.buttonLink: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.searchPlaceholder: null
+uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.title: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.cn1Wssm6: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.ixdUgApI: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.ixdUgApI: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.ixdUgApI: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.cn1Wssm6: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.cn1Wssm6: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.alt.dQYH8VVZ: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.alt.text.dQYH8VVZ: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.alt.title.dQYH8VVZ: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.alt.slideLink.dQYH8VVZ: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.alt.buttonLabel.dQYH8VVZ: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.IvHEjmJH: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.IvHEjmJH: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.IvHEjmJH: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.Yt31IBcR: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.Yt31IBcR: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.Yt31IBcR: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.zaIJQqYK: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.zaIJQqYK: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.zaIJQqYK: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.J5vDNWQz: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.J5vDNWQz: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.J5vDNWQz: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.uekrC3tR: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.uekrC3tR: null
+uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.uekrC3tR: null
+? prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5
+: "Kelola waktu, raih lebih dengan produk-produk ini."
+? prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5
+: "Grup-2"
+? prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92
+: "Judul atas"
+? prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4
+: "Pelajari selengkapnya"
+? prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5
+: ""
+? prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92
+: "Grup-1"
+? prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4
+: "Kelola uang dengan efektif melalui penganggaran dengan produk-produk ini."
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92: "Aplikasi Bisnis"
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4: "Keuangan & Penganggaran"
+? prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92
+: "Semua aplikasi bisnis terbaik yang Anda perlukan untuk kerja sehari-hari."
+? prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4
+: "Grup-3"
+? prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5
+: "Pelajari selengkapnya"
+? prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92
+: "Pelajari selengkapnya"
+? prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4
+: "Judul atas"
+prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5: "Manajemen Waktu"
+uieditor.menuItem.title.f6950333-6b2d-4292-a58a-80fc373f5bf0: null
+uieditor.menuItem.link.f6950333-6b2d-4292-a58a-80fc373f5bf0: null

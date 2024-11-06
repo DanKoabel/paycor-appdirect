@@ -1,0 +1,2139 @@
+{
+  "pages" : {
+    "profile" : {
+      "components" : {
+        "ProductDescription:orderable:59db9f73-9caa-48b2-9df9-da98413e7de8" : {
+          "isAddonsVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "isPricesVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "layout" : {
+            "value" : "horizontal-thumbnails",
+            "type" : "DROPDOWN"
+          }
+        },
+        "ProductBanner" : {
+          "bannerBackgroundColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
+          },
+          "descTextSize" : {
+            "value" : "medium",
+            "type" : "DROPDOWN"
+          },
+          "backgroundImg" : {
+            "value" : { },
+            "type" : "IMAGE_UPLOADER"
+          },
+          "textColor" : {
+            "value" : "dark",
+            "type" : "DROPDOWN"
+          },
+          "settingsHeight" : {
+            "value" : "medium",
+            "type" : "DROPDOWN"
+          },
+          "showRatings" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "backgroundType" : {
+            "value" : "color",
+            "type" : "RADIO"
+          },
+          "productNameSize" : {
+            "value" : "medium",
+            "type" : "DROPDOWN"
+          }
+        },
+        "ProductResources:orderable:7c059217-1dbc-4b75-a6ee-a7ca740facd6" : {
+          "spacing" : {
+            "value" : 0,
+            "type" : "SLIDER"
+          },
+          "columns" : {
+            "value" : "3",
+            "type" : "DROPDOWN"
+          }
+        },
+        "ProductSimilarApps" : {
+          "hasQuickview" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "isShadowVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "sliderOptions" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "tileBackgroundColor" : {
+            "value" : "#eaeaea",
+            "type" : "COLORPICKER"
+          },
+          "textBackgroundColor" : {
+            "value" : "#FFFFFF",
+            "type" : "COLORPICKER"
+          },
+          "sliderSettings" : {
+            "value" : "uieditor.profile.ProductSimilarApps.sliderSettings",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "buttonLabel" : {
+            "value" : "uieditor.profile.ProductSimilarApps.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "displayOptions" : {
+            "value" : [ "isDescriptionVisible", "isRatingsVisible", "isBadgesVisible", "isRibbonsVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "layout" : {
+            "value" : "classic",
+            "type" : "RADIO"
+          },
+          "maxRows" : {
+            "value" : "2",
+            "type" : "RADIO"
+          },
+          "size" : {
+            "value" : "small",
+            "type" : "RADIO"
+          },
+          "borderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          },
+          "sliderTitle" : {
+            "value" : "uieditor.profile.ProductSimilarApps.sliderTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "quickviewViewMode" : {
+            "value" : "default",
+            "type" : "RADIO"
+          },
+          "tileCtaLabel" : {
+            "value" : "uieditor.profile.ProductSimilarApps.tileCtaLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "sortBy" : {
+            "value" : "alphabetical",
+            "type" : "DROPDOWN"
+          },
+          "cardBorderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          }
+        },
+        "ProductReviews:orderable:7d021438-3800-4fb9-9577-e809dcf15df7" : {
+          "isAvatarVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "position" : {
+            "value" : "right",
+            "type" : "DROPDOWN"
+          }
+        },
+        "ProductTabMenu" : {
+          "linkSpacing" : {
+            "value" : "26",
+            "type" : "SLIDER"
+          },
+          "borderColor" : {
+            "value" : "#CBCBCB",
+            "type" : "COLORPICKER"
+          },
+          "backgroundColor" : {
+            "value" : "#fff",
+            "type" : "COLORPICKER"
+          },
+          "headingSpacerText" : {
+            "value" : "uieditor.profile.ProductTabMenu.headingSpacerText",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "headingSpacerBg" : {
+            "value" : "uieditor.profile.ProductTabMenu.headingSpacerBg",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "pageTabs" : {
+            "value" : [ {
+              "label" : "",
+              "defaultLabel" : "uieditor.tabs.overview",
+              "href" : "/en-US/apps/163915/talech/overview",
+              "value" : "overview",
+              "selected" : true,
+              "isEditMode" : false,
+              "isVisible" : true
+            }, {
+              "label" : {
+                "value" : "uieditor.profile.ProductTabMenu.pageTabs.integration",
+                "isLocalized" : true,
+                "type" : "INPUT"
+              },
+              "defaultLabel" : "uieditor.profile.ProductTabMenu.pageTabs.integration",
+              "href" : "/en-US/apps/163915/talech/features",
+              "value" : "features",
+              "selected" : false,
+              "isEditMode" : false,
+              "isVisible" : true
+            }, {
+              "label" : {
+                "value" : "uieditor.profile.ProductTabMenu.pageTabs.support",
+                "isLocalized" : true,
+                "type" : "INPUT"
+              },
+              "defaultLabel" : "uieditor.tabs.support",
+              "href" : "/en-US/apps/163915/talech/support",
+              "value" : "support",
+              "selected" : false,
+              "isEditMode" : false,
+              "isVisible" : true
+            } ],
+            "type" : "TABS_LIST"
+          },
+          "headingSpacer" : {
+            "value" : "uieditor.profile.ProductTabMenu.headingSpacer",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "textActiveColor" : {
+            "value" : "",
+            "type" : "COLORPICKER"
+          },
+          "textColor" : {
+            "value" : "#9C9C9C",
+            "type" : "COLORPICKER"
+          },
+          "height" : {
+            "value" : 50,
+            "type" : "SLIDER"
+          }
+        },
+        "StickyButtonPageScroll" : {
+          "visibleDesktop" : {
+            "value" : false,
+            "type" : "TOGGLE"
+          }
+        },
+        "ProductTopFeatures:orderable:d7254b33-ac88-4945-a248-edf6a87a2b16" : {
+          "numberOfColumns" : {
+            "value" : "two",
+            "type" : "DROPDOWN"
+          },
+          "withImages" : {
+            "value" : false,
+            "type" : "TOGGLE"
+          }
+        },
+        "ProductAdditionalInfo:orderable:83a7e00c-b3d5-4d64-8919-a9cb3fa2d5b3" : {
+          "headerBackground" : {
+            "value" : "#F5F5F5",
+            "type" : "COLORPICKER"
+          },
+          "headingSpacer" : {
+            "value" : "uieditor.profile.ProductAdditionalInfo:orderable:83a7e00c-b3d5-4d64-8919-a9cb3fa2d5b3.headingSpacer",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "infoPosition" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "columnCount" : {
+            "value" : "1",
+            "type" : "DROPDOWN"
+          },
+          "sideBarBackground" : {
+            "value" : "#FFFF",
+            "type" : "COLORPICKER"
+          },
+          "sideBarBorder" : {
+            "value" : "#CBCBCB",
+            "type" : "COLORPICKER"
+          }
+        }
+      },
+      "orderableComponents" : [ {
+        "name" : "ProductDescription",
+        "id" : "ProductDescription:orderable:59db9f73-9caa-48b2-9df9-da98413e7de8",
+        "isVisible" : true
+      }, {
+        "name" : "ProductTopFeatures",
+        "id" : "ProductTopFeatures:orderable:d7254b33-ac88-4945-a248-edf6a87a2b16",
+        "isVisible" : true
+      }, {
+        "name" : "ProductResources",
+        "id" : "ProductResources:orderable:7c059217-1dbc-4b75-a6ee-a7ca740facd6",
+        "isVisible" : true
+      }, {
+        "name" : "ProductReviews",
+        "id" : "ProductReviews:orderable:7d021438-3800-4fb9-9577-e809dcf15df7",
+        "isVisible" : true
+      }, {
+        "name" : "ProductAdditionalInfo",
+        "id" : "ProductAdditionalInfo:orderable:83a7e00c-b3d5-4d64-8919-a9cb3fa2d5b3",
+        "isVisible" : true
+      } ]
+    },
+    "global" : {
+      "components" : {
+        "Header" : {
+          "components" : {
+            "HeaderAnnouncementBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685" : {
+              "announcementBarLink" : {
+                "value" : "uieditor.global.HeaderAnnouncementBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.announcementBarLink",
+                "isLocalized" : true,
+                "type" : "INPUT"
+              },
+              "announcementBarBackgroundColor" : {
+                "value" : "#f15a2e",
+                "type" : "COLORPICKER"
+              },
+              "announcementBarOpenInNewTab" : {
+                "value" : false,
+                "type" : "TOGGLE_CHECK"
+              },
+              "announcementBarTextColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              },
+              "announcementBarLinkTextColor" : {
+                "value" : "#f3ff06",
+                "type" : "COLORPICKER"
+              },
+              "announcementBarTextAlignment" : {
+                "value" : "center",
+                "type" : "DROPDOWN"
+              },
+              "announcementBarHeight" : {
+                "value" : 30,
+                "type" : "SLIDER"
+              },
+              "announcementBarMessage" : {
+                "value" : "Use this space to announce important messages to your customers. You can also add [links]",
+                "type" : "TEXTAREA"
+              },
+              "announcementBarBorderColor" : {
+                "value" : "#f15a2e",
+                "type" : "COLORPICKER"
+              },
+              "announcementBarTextSize" : {
+                "value" : "small",
+                "type" : "DROPDOWN"
+              }
+            },
+            "HeaderAuxiliaryBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75686" : {
+              "auxBarBackgroundColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              },
+              "auxBarTextColorHover" : {
+                "value" : "#fcfdfd",
+                "type" : "COLORPICKER"
+              },
+              "displayLanguageSwitcher" : {
+                "value" : true,
+                "type" : "TOGGLE"
+              },
+              "auxBarTextColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              },
+              "auxBarTextSize" : {
+                "value" : "medium",
+                "type" : "DROPDOWN"
+              },
+              "auxBarBorderColor" : {
+                "value" : "#0076ce",
+                "type" : "COLORPICKER"
+              },
+              "auxBarLinkSpacing" : {
+                "value" : 15,
+                "type" : "SLIDER"
+              },
+              "auxBarTextAlignment" : {
+                "value" : "right",
+                "type" : "DROPDOWN"
+              },
+              "auxBarHeight" : {
+                "value" : 40,
+                "type" : "SLIDER"
+              }
+            },
+            "HeaderHomeBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75687" : {
+              "logoHeight" : {
+                "value" : 82,
+                "type" : "SLIDER"
+              },
+              "homeBarBackgroundColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              },
+              "logoTargetType" : {
+                "value" : "home_page",
+                "type" : "RADIO"
+              },
+              "logoTheme" : {
+                "value" : "logoImage",
+                "type" : "LOGO"
+              },
+              "displayRegistrationLink" : {
+                "value" : false,
+                "type" : "TOGGLE"
+              },
+              "displayCart" : {
+                "value" : true,
+                "type" : "TOGGLE"
+              },
+              "homeBarBorderColor" : {
+                "value" : "#fff",
+                "type" : "COLORPICKER"
+              },
+              "homeBarTextHoverColor" : {
+                "value" : "#fcfdfd",
+                "type" : "COLORPICKER"
+              },
+              "homeBarTextActiveColor" : {
+                "value" : "#fcfdfd",
+                "type" : "COLORPICKER"
+              },
+              "homeBarPadding" : {
+                "value" : 15,
+                "type" : "SLIDER"
+              },
+              "displayLoginLink" : {
+                "value" : true,
+                "type" : "TOGGLE"
+              },
+              "homeBarTextColor" : {
+                "value" : "#5d5e5f",
+                "type" : "COLORPICKER"
+              },
+              "homeBarTextSize" : {
+                "value" : "large",
+                "type" : "DROPDOWN"
+              }
+            },
+            "HeaderNavigationBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75688" : {
+              "navBarTextSize" : {
+                "value" : "medium",
+                "type" : "DROPDOWN"
+              },
+              "navBarPadding" : {
+                "value" : 10,
+                "type" : "SLIDER"
+              },
+              "navBarBorderColor" : {
+                "value" : "#cbcbcb",
+                "type" : "COLORPICKER"
+              },
+              "navBarBackgroundColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              },
+              "navBarTextColor" : {
+                "value" : "#474747",
+                "type" : "COLORPICKER"
+              },
+              "navBarTextAlignment" : {
+                "value" : "left",
+                "type" : "DROPDOWN"
+              },
+              "navBarLinkSpacing" : {
+                "value" : 20,
+                "type" : "SLIDER"
+              },
+              "navBarTextHoverColor" : {
+                "value" : "#0076ce",
+                "type" : "COLORPICKER"
+              }
+            },
+            "HeaderSearchBar" : {
+              "searchPlaceholder" : {
+                "value" : "uieditor.global.Header.HeaderSearchBar.searchPlaceholder",
+                "isLocalized" : true,
+                "type" : "INPUT"
+              },
+              "searchBarHeight" : {
+                "value" : "medium",
+                "type" : "DROPDOWN"
+              },
+              "searchIcon" : {
+                "value" : {
+                  "alt" : ""
+                },
+                "type" : "IMAGE_UPLOADER"
+              },
+              "searchCornerRadius" : {
+                "value" : 24,
+                "type" : "SLIDER"
+              },
+              "visibilityHeader" : {
+                "value" : "",
+                "type" : "GROUP_HEADER"
+              },
+              "searchBarLocation" : {
+                "value" : "navigation_bar",
+                "type" : "RADIO"
+              },
+              "searchBorderColor" : {
+                "value" : "#cbcbcb",
+                "type" : "COLORPICKER"
+              },
+              "settingsHeader" : {
+                "value" : "",
+                "type" : "GROUP_HEADER"
+              },
+              "searchBarMaxWidth" : {
+                "value" : 500,
+                "type" : "SLIDER"
+              },
+              "searchBorderVisible" : {
+                "value" : true,
+                "type" : "TOGGLE"
+              },
+              "searchIconColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              },
+              "searchButtonColor" : {
+                "value" : "#0076ce",
+                "type" : "COLORPICKER"
+              },
+              "searchBackgroundColor" : {
+                "value" : "#ffffff",
+                "type" : "COLORPICKER"
+              }
+            }
+          },
+          "orderableComponents" : [ {
+            "name" : "HeaderAnnouncementBar",
+            "id" : "HeaderAnnouncementBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685",
+            "isVisible" : true
+          }, {
+            "name" : "HeaderAuxiliaryBar",
+            "id" : "HeaderAuxiliaryBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75686",
+            "isVisible" : false
+          }, {
+            "name" : "HeaderHomeBar",
+            "id" : "HeaderHomeBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75687",
+            "isVisible" : true
+          }, {
+            "name" : "HeaderNavigationBar",
+            "id" : "HeaderNavigationBar:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75688",
+            "isVisible" : true
+          } ]
+        },
+        "Footer" : {
+          "newsletterLogoPosition" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "bottomBarBackground" : {
+            "value" : "#f7f7f8",
+            "type" : "COLORPICKER"
+          },
+          "copyright" : {
+            "value" : " ",
+            "type" : "INPUT"
+          },
+          "footerText" : {
+            "value" : "#ffd501",
+            "type" : "COLORPICKER"
+          },
+          "bottomBarText" : {
+            "value" : "#707070",
+            "type" : "COLORPICKER"
+          },
+          "newsletterButtonStyle" : {
+            "value" : "primary",
+            "type" : "RADIO"
+          },
+          "newsletterSocialPosition" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "settingsHeader" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "displaySocialMedia" : {
+            "value" : false,
+            "type" : "TOGGLE"
+          },
+          "footerBackground" : {
+            "value" : "#7e7e86",
+            "type" : "COLORPICKER"
+          },
+          "navSeparatorColor" : {
+            "value" : "",
+            "type" : "COLORPICKER"
+          },
+          "displayNavSeparator" : {
+            "value" : false,
+            "type" : "TOGGLE"
+          },
+          "selectedLogo" : {
+            "value" : "noLogo",
+            "type" : "LOGO"
+          },
+          "newsletterButtonLink" : {
+            "value" : "http://url?locale=en-US",
+            "type" : "INPUT"
+          },
+          "footerStyleHeader" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "logoSize" : {
+            "value" : 82,
+            "type" : "SLIDER"
+          },
+          "socialIconColor" : {
+            "value" : "",
+            "type" : "COLORPICKER"
+          },
+          "socials" : {
+            "value" : {
+              "items" : [ {
+                "label" : "Facebook",
+                "icon" : "facebook",
+                "values" : {
+                  "accountLink" : {
+                    "value" : "https://www.facebook.com"
+                  },
+                  "uploadIcon" : {
+                    "value" : { },
+                    "type" : "IMAGE_UPLOADER",
+                    "isLocalized" : false
+                  }
+                },
+                "isVisible" : true,
+                "deletable" : false,
+                "editable" : false
+              }, {
+                "label" : "Twitter",
+                "icon" : "twitter",
+                "values" : {
+                  "accountLink" : {
+                    "value" : "https://www.twitter.com"
+                  },
+                  "uploadIcon" : {
+                    "value" : { },
+                    "type" : "IMAGE_UPLOADER",
+                    "isLocalized" : false
+                  }
+                },
+                "isVisible" : true,
+                "deletable" : false,
+                "editable" : false
+              }, {
+                "label" : "Instagram",
+                "icon" : "instagram",
+                "values" : {
+                  "accountLink" : {
+                    "value" : "https://www.instagram.com"
+                  },
+                  "uploadIcon" : {
+                    "value" : { },
+                    "type" : "IMAGE_UPLOADER",
+                    "isLocalized" : false
+                  }
+                },
+                "isVisible" : true,
+                "deletable" : false,
+                "editable" : false
+              }, {
+                "label" : "LinkedIn",
+                "icon" : "linkedin",
+                "values" : {
+                  "accountLink" : {
+                    "value" : "https://www.linkedin.com"
+                  },
+                  "uploadIcon" : {
+                    "value" : { },
+                    "type" : "IMAGE_UPLOADER",
+                    "isLocalized" : false
+                  }
+                },
+                "isVisible" : true,
+                "deletable" : false,
+                "editable" : false
+              }, {
+                "label" : "YouTube",
+                "icon" : "youtube",
+                "values" : {
+                  "accountLink" : {
+                    "value" : "https://www.youtube.com"
+                  },
+                  "uploadIcon" : {
+                    "value" : { },
+                    "type" : "IMAGE_UPLOADER",
+                    "isLocalized" : false
+                  }
+                },
+                "isVisible" : true,
+                "deletable" : false,
+                "editable" : false
+              } ]
+            },
+            "type" : "DRAWER_LIST"
+          },
+          "newsletterButtonLabel" : {
+            "value" : "Subscribe",
+            "type" : "INPUT"
+          },
+          "socialIconPosition" : {
+            "value" : "right",
+            "type" : "DROPDOWN"
+          },
+          "displayLogo" : {
+            "value" : false,
+            "type" : "TOGGLE_CHECK"
+          },
+          "newsletterText" : {
+            "value" : "Add your custom text to invite people to join your newsletter",
+            "type" : "INPUT"
+          },
+          "navigationHeader" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "displayDefaultSocialIcons" : {
+            "value" : false,
+            "type" : "TOGGLE"
+          },
+          "layout" : {
+            "value" : "newsletter_social",
+            "type" : "RADIO"
+          },
+          "newsletterTitle" : {
+            "value" : "Stay up-to-date with our latest news",
+            "type" : "INPUT"
+          },
+          "size" : {
+            "value" : "medium",
+            "type" : "DROPDOWN"
+          },
+          "logoPosition" : {
+            "value" : "bottomRight",
+            "type" : "DROPDOWN"
+          },
+          "displayLanguageSwitcher" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "newsletterHeader" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          }
+        }
+      },
+      "orderableComponents" : [ ]
+    },
+    "listing" : {
+      "components" : {
+        "ProductListing-ListingPage" : {
+          "backgroundColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
+          },
+          "borderColor" : {
+            "value" : "#eaeaea",
+            "type" : "COLORPICKER"
+          },
+          "isBlurbVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "headerBackgroundColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
+          },
+          "hoverColor" : {
+            "value" : "rgba(0,0,0,0.05)",
+            "type" : "COLORPICKER"
+          },
+          "isVendorVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "isRatingsVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "defaultView" : {
+            "value" : "list-view",
+            "type" : "RADIO"
+          },
+          "titleColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "borderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          },
+          "isCompareVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "iconSize" : {
+            "value" : "small",
+            "type" : "DROPDOWN"
+          },
+          "iconSizeGrid" : {
+            "value" : "small",
+            "type" : "DROPDOWN"
+          },
+          "isOverviewVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          }
+        }
+      },
+      "orderableComponents" : [ ]
+    },
+    "home" : {
+      "components" : {
+        "HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d" : {
+          "searchPlaceholder" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.searchPlaceholder",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "searchBarWidth" : {
+            "value" : 521,
+            "type" : "SLIDER"
+          },
+          "displaySettingsHeading" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.displaySettingsHeading",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "foregroundImage" : {
+            "value" : {
+              "filename" : "",
+              "type" : "IMAGE_UPLOADER",
+              "url" : "",
+              "alt" : ""
+            },
+            "type" : "IMAGE_UPLOADER"
+          },
+          "backgroundImage" : {
+            "value" : {
+              "filename" : "",
+              "type" : "IMAGE_UPLOADER",
+              "url" : "",
+              "alt" : ""
+            },
+            "type" : "IMAGE_UPLOADER"
+          },
+          "foregroundImageSize" : {
+            "value" : "scaleToFill",
+            "type" : "RADIO"
+          },
+          "title" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.title",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "overlayColor" : {
+            "value" : "rgba(0,0,0,0.4)",
+            "type" : "COLORPICKER"
+          },
+          "isTextVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "buttonType" : {
+            "value" : "primary",
+            "type" : "RADIO"
+          },
+          "searchCornerRadius" : {
+            "value" : 3,
+            "type" : "SLIDER"
+          },
+          "titleColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "searchBorderColor" : {
+            "value" : "#cacaca",
+            "type" : "COLORPICKER"
+          },
+          "buttonLink" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.buttonLink",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "isSearchBarVisible" : {
+            "value" : false,
+            "type" : "TOGGLE_CHECK"
+          },
+          "textPositionImageStyle" : {
+            "value" : "top",
+            "type" : "DROPDOWN"
+          },
+          "imageSize" : {
+            "value" : "scaleToFitPage",
+            "type" : "RADIO"
+          },
+          "text" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.text",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "shadowColor" : {
+            "value" : "#C3C3C3",
+            "type" : "COLORPICKER"
+          },
+          "contentHeading" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.contentHeading",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "searchButtonColor" : {
+            "value" : "#0076ce",
+            "type" : "COLORPICKER"
+          },
+          "searchBackgroundColor" : {
+            "value" : "#fff",
+            "type" : "COLORPICKER"
+          },
+          "height" : {
+            "value" : "medium",
+            "type" : "DROPDOWN"
+          },
+          "backgroundColor" : {
+            "value" : "#F4F4F4",
+            "type" : "COLORPICKER"
+          },
+          "searchIcon" : {
+            "value" : {
+              "filename" : "",
+              "type" : "IMAGE_UPLOADER",
+              "url" : "",
+              "alt" : ""
+            },
+            "type" : "IMAGE_UPLOADER"
+          },
+          "searchBarWidthImageStyle" : {
+            "value" : 412,
+            "type" : "SLIDER"
+          },
+          "textSize" : {
+            "value" : "medium",
+            "type" : "DROPDOWN"
+          },
+          "textPosition" : {
+            "value" : "topLeft",
+            "type" : "DROPDOWN"
+          },
+          "isTaglineVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "descriptionColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "foregroundImageSettingsHeading" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.foregroundImageSettingsHeading",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "taglineColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "isButtonVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "searchPlaceholderTextColor" : {
+            "value" : "rgba(0,0,0,0.5)",
+            "type" : "COLORPICKER"
+          },
+          "searchBarHeading" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.searchBarHeading",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          },
+          "buttonLabel" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "foregroundImagePosition" : {
+            "value" : "left",
+            "type" : "RADIO"
+          },
+          "isTitleVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "textAlignment" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "tagline" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.tagline",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "style" : {
+            "value" : "hero",
+            "type" : "RADIO"
+          },
+          "searchIconColor" : {
+            "value" : "#fff",
+            "type" : "COLORPICKER"
+          },
+          "contentSettingsHeading" : {
+            "value" : "uieditor.home.HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d.contentSettingsHeading",
+            "isLocalized" : true,
+            "type" : "GROUP_HEADER"
+          }
+        },
+        "ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7" : {
+          "contentAlignment" : {
+            "value" : "space-evenly",
+            "type" : "DROPDOWN"
+          },
+          "displaySettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "displayUpperTitle" : {
+            "value" : false,
+            "type" : "TOGGLE_CHECK"
+          },
+          "contentSettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "productGroupsTabTitle" : {
+            "value" : "uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.productGroupsTabTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "rowGap" : {
+            "value" : 28,
+            "type" : "SLIDER"
+          },
+          "cardBorderColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
+          },
+          "displayHeaderDescription" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "upperTitleColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "displayHeaderTitle" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "displayTitle" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "buttonAlignment" : {
+            "value" : "center",
+            "type" : "DROPDOWN"
+          },
+          "buttonType" : {
+            "value" : "primary",
+            "type" : "RADIO"
+          },
+          "displayBorder" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "titleColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "imageBackgroundColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
+          },
+          "containerBackgroundColor" : {
+            "value" : "#eeeeee",
+            "type" : "COLORPICKER"
+          },
+          "shadowColor" : {
+            "value" : "rgba(0,1,0,0.2)",
+            "type" : "COLORPICKER"
+          },
+          "displayDescription" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "upperTitleAlignment" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "cardCornerRadius" : {
+            "value" : "15",
+            "type" : "SLIDER"
+          },
+          "displayButton" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "onHoverBorderOnly" : {
+            "value" : false,
+            "type" : "TOGGLE_CHECK"
+          },
+          "descriptionColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "onHoverShadowOnly" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "productGroupsList" : {
+            "value" : {
+              "data" : [ {
+                "uuid" : "1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92",
+                "panelTitle" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "upperTitle" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "title" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "description" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "buttonLabel" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.1f3a0a81-ac43-4cfe-8f43-30ef5a72ba92",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "customLink" : {
+                  "value" : "",
+                  "type" : "INPUT"
+                },
+                "link" : {
+                  "value" : "/en-US/listing?order=POPULARITY",
+                  "type" : "INPUT"
+                },
+                "imageSize" : {
+                  "value" : "scaleToFit",
+                  "type" : "RADIO"
+                },
+                "customImage" : {
+                  "type" : "IMAGE_UPLOADER",
+                  "defaultValue" : {
+                    "filename" : "Image20241017144912.png",
+                    "type" : "IMAGE_UPLOADER",
+                    "url" : "https://d3bql97l1ytoxn.cloudfront.net/46fa85fd-48b8-4de6-9ec9-3e381d985ac2/294b3c0d-68a2-43d8-8d35-56602811b848.png",
+                    "alt" : ""
+                  },
+                  "isAltVisible" : true
+                },
+                "useCustomLink" : false,
+                "isVisible" : true,
+                "editorData" : {
+                  "localGroups" : {
+                    "group-attr-0" : true
+                  },
+                  "localSubGroups" : { },
+                  "order" : "POPULARITY"
+                }
+              }, {
+                "uuid" : "34284f4f-80a8-4e5d-ba70-7435b3aa7bf5",
+                "panelTitle" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "upperTitle" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "title" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "description" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "buttonLabel" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.34284f4f-80a8-4e5d-ba70-7435b3aa7bf5",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "customLink" : {
+                  "value" : "",
+                  "type" : "INPUT"
+                },
+                "link" : {
+                  "value" : "/en-US/listing?order=POPULARITY",
+                  "type" : "INPUT"
+                },
+                "imageSize" : {
+                  "value" : "scaleToFit",
+                  "type" : "RADIO"
+                },
+                "customImage" : {
+                  "type" : "IMAGE_UPLOADER",
+                  "defaultValue" : {
+                    "filename" : "Image20241017144917.png",
+                    "type" : "IMAGE_UPLOADER",
+                    "url" : "https://d3bql97l1ytoxn.cloudfront.net/e3e932ad-f230-41d1-ae8c-c002ca5c44da/146e2ff7-2e68-430a-9c7f-b0a2c3187c43.png",
+                    "alt" : ""
+                  },
+                  "isAltVisible" : true
+                },
+                "useCustomLink" : false,
+                "isVisible" : true,
+                "editorData" : {
+                  "localGroups" : {
+                    "group-attr-0" : true
+                  },
+                  "localSubGroups" : { },
+                  "order" : "POPULARITY"
+                }
+              }, {
+                "uuid" : "77087322-407b-4734-bd62-d72c2a0b56a4",
+                "panelTitle" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.panelTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "upperTitle" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.upperTitle.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "title" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.title.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "description" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.description.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "buttonLabel" : {
+                  "value" : "prefix.uieditor.home.ProductGroups:orderable.buttonLabel.5cd5fc27-823f-4497-9b7d-b75034e835f7.77087322-407b-4734-bd62-d72c2a0b56a4",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "customLink" : {
+                  "value" : "",
+                  "type" : "INPUT"
+                },
+                "link" : {
+                  "value" : "/en-US/listing?order=POPULARITY",
+                  "type" : "INPUT"
+                },
+                "imageSize" : {
+                  "value" : "scaleToFit",
+                  "type" : "RADIO"
+                },
+                "customImage" : {
+                  "type" : "IMAGE_UPLOADER",
+                  "defaultValue" : {
+                    "filename" : "Image20241017144906.png",
+                    "type" : "IMAGE_UPLOADER",
+                    "url" : "https://d3bql97l1ytoxn.cloudfront.net/35f73b56-8f3c-4ac3-b4c5-8365c88634b7/d1ff7a3f-927b-4ed4-83ca-54a46f398b48.png",
+                    "alt" : ""
+                  },
+                  "isAltVisible" : true
+                },
+                "useCustomLink" : false,
+                "isVisible" : true,
+                "editorData" : {
+                  "localGroups" : { },
+                  "localSubGroups" : { },
+                  "order" : "POPULARITY"
+                }
+              } ],
+              "name" : "PRODUCT_GROUPS_LIST"
+            },
+            "type" : "MENU_LINK"
+          },
+          "headerDescription" : {
+            "value" : "uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.headerDescription",
+            "isLocalized" : true,
+            "type" : "TEXTAREA"
+          },
+          "imageCornerRadius" : {
+            "value" : 0,
+            "type" : "SLIDER"
+          },
+          "componentSettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "cardBackgroundColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
+          },
+          "size" : {
+            "value" : "medium",
+            "type" : "RADIO"
+          },
+          "columnGap" : {
+            "value" : "9",
+            "type" : "SLIDER"
+          },
+          "textAlignment" : {
+            "value" : "center",
+            "type" : "DROPDOWN"
+          },
+          "displayShadow" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "style" : {
+            "value" : "card",
+            "type" : "RADIO"
+          },
+          "headerTextAlignment" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "headerTitle" : {
+            "value" : "uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.headerTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          }
+        },
+        "Carousel:orderable:c06a8060-3014-49c8-80a4-18995de16c3c" : {
+          "slides" : {
+            "value" : [ {
+              "contentType" : "IMAGE_ONLY",
+              "uuid" : "Yt31IBcR",
+              "slideData" : {
+                "slideName" : "Hero",
+                "title" : {
+                  "value" : "uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.Yt31IBcR",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "text" : {
+                  "value" : "uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.Yt31IBcR",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "image" : {
+                  "type" : "IMAGE_UPLOADER",
+                  "filename" : "Header.png",
+                  "url" : "https://d3bql97l1ytoxn.cloudfront.net/9c34fe55-d852-4f33-a9a9-f0757f8aaa18/393217fb-a31d-4284-89e1-6d453280ad02.png"
+                },
+                "textSize" : "small",
+                "titleSize" : "small",
+                "textAlignment" : "right",
+                "slideLink" : {
+                  "value" : "uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.Yt31IBcR",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "textColor" : "rgba(231, 228, 228, 0)",
+                "titleColor" : "rgba(231, 227, 227, 0)",
+                "imageSizing" : "fill",
+                "overlayColor" : "rgba(65, 50, 50, 0)",
+                "backgroundColor" : "#fefdfd"
+              }
+            }, {
+              "contentType" : "IMAGE_ONLY",
+              "uuid" : "uekrC3tR",
+              "slideData" : {
+                "slideName" : "Image Slide",
+                "title" : {
+                  "value" : "uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.title.uekrC3tR",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "text" : {
+                  "value" : "uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.text.uekrC3tR",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "image" : {
+                  "type" : "IMAGE_UPLOADER",
+                  "filename" : "Header 2.png",
+                  "url" : "https://d3bql97l1ytoxn.cloudfront.net/d88d5c2e-a879-4c3e-b6ad-d579eac8064c/5413c8c8-b1cf-448d-a319-62d58a85395a.png"
+                },
+                "textSize" : "small",
+                "titleSize" : "small",
+                "textAlignment" : "right",
+                "slideLink" : {
+                  "value" : "uieditor.home.Carousel.orderable:c06a8060-3014-49c8-80a4-18995de16c3c.slides.slideLink.uekrC3tR",
+                  "isLocalized" : true,
+                  "type" : "INPUT"
+                },
+                "textColor" : "#f5eded",
+                "titleColor" : "#fdf5f5",
+                "imageSizing" : "fit",
+                "overlayColor" : "rgba(124, 118, 118, 0)",
+                "backgroundColor" : "rgba(112, 112, 112, 0)"
+              }
+            } ],
+            "type" : "SLIDES"
+          },
+          "backgroundColor" : {
+            "value" : "#fefafa",
+            "type" : "COLORPICKER"
+          },
+          "delay" : {
+            "value" : 5,
+            "type" : "DROPDOWN"
+          },
+          "isDisplayCarets" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "backgroundImg" : {
+            "value" : {
+              "alt" : ""
+            },
+            "type" : "IMAGE_UPLOADER"
+          },
+          "isAutorotate" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "headingSpacer" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "caretsColorTheme" : {
+            "value" : "uieditor.sfbComponent.carousel.caretsColorTheme.dark",
+            "type" : "DROPDOWN"
+          },
+          "isDisplayDots" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "backgroundType" : {
+            "value" : "color",
+            "type" : "RADIO"
+          },
+          "height" : {
+            "value" : 400,
+            "type" : "DROPDOWN"
+          },
+          "isDisplayCaretsOnHover" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          }
+        },
+        "Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685" : {
+          "hasQuickview" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "productsList" : {
+            "value" : {
+              "contentType" : "dynamic",
+              "queries" : {
+                "sort" : "POPULARITY"
+              }
+            },
+            "type" : "PRODUCTS_LIST"
+          },
+          "isShadowVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "textBackgroundColor" : {
+            "value" : "#FFFFFF",
+            "type" : "COLORPICKER"
+          },
+          "sliderOptions" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "tileBackgroundColor" : {
+            "value" : "rgba(244, 242, 242, 0)",
+            "type" : "COLORPICKER"
+          },
+          "quickviewOptions" : {
+            "value" : [ "isQuickviewVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "sliderSettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "displayOptions" : {
+            "value" : [ "isDescriptionVisible", "isRatingsVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "buttonLabel" : {
+            "value" : "uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "layout" : {
+            "value" : "square",
+            "type" : "RADIO"
+          },
+          "maxRows" : {
+            "value" : 2,
+            "type" : "RADIO"
+          },
+          "size" : {
+            "value" : "small",
+            "type" : "RADIO"
+          },
+          "borderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          },
+          "quickviewDisplayOptions" : {
+            "value" : [ "isScreenshotVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "tileCtaLabel" : {
+            "value" : "Buy Now",
+            "type" : "INPUT"
+          },
+          "quickviewViewMode" : {
+            "value" : "default",
+            "type" : "DROPDOWN"
+          },
+          "sliderTitle" : {
+            "value" : "uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.sliderTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "cardBorderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          }
+        },
+        "FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e" : {
+          "imageMask" : {
+            "value" : "noMask",
+            "type" : "RADIO"
+          },
+          "tabBorderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          },
+          "cardBorderColor" : {
+            "value" : "#FFFFFF",
+            "type" : "COLORPICKER"
+          },
+          "tabPosition" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
+          },
+          "tabTitle" : {
+            "value" : "uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.tabTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "buttonType" : {
+            "value" : "primary",
+            "type" : "RADIO"
+          },
+          "isPriceVisible" : {
+            "value" : false,
+            "type" : "TOGGLE_CHECK"
+          },
+          "imageBackgroundColor" : {
+            "value" : "rgba(240, 111, 31, 0)",
+            "type" : "COLORPICKER"
+          },
+          "tabBackgroundColor" : {
+            "value" : "#f06f1f",
+            "type" : "COLORPICKER"
+          },
+          "imageSize" : {
+            "value" : "scaleToFit",
+            "type" : "RADIO"
+          },
+          "containerBackgroundColor" : {
+            "value" : "rgba(240, 111, 31, 0)",
+            "type" : "COLORPICKER"
+          },
+          "customProductTitle" : {
+            "value" : "uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.customProductTitle",
+            "isLocalized" : true,
+            "type" : "TEXTAREA"
+          },
+          "product" : {
+            "value" : {
+              "id" : 413457,
+              "name" : "HIREtech Work Opportunity Tax Credits (WOTC)",
+              "description" : "Help create an easier process for  Work Opportunity Tax Credit (WOTC) screening and less manual work for your teams. Tap our proprietary technology to help you simplify the process, identify more WOTC eligible employees, and possibly capture more tax credits for your company.",
+              "overviewImageUrl" : "https://d3bql97l1ytoxn.cloudfront.net/app_resources/413457/overview/img8750137951081483807.png"
+            },
+            "type" : "PRODUCT"
+          },
+          "tabHeading" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "imagePosition" : {
+            "value" : "right",
+            "type" : "RADIO"
+          },
+          "productDescriptionColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "isShadowVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "productTextAlignment" : {
+            "value" : "topLeft",
+            "type" : "DROPDOWN"
+          },
+          "productTitleColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "customProductDescription" : {
+            "value" : "",
+            "type" : "TEXTAREA"
+          },
+          "isButtonVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "buttonLabel" : {
+            "value" : "uieditor.home.FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "tabTextColor" : {
+            "value" : "#FFFFFF",
+            "type" : "COLORPICKER"
+          },
+          "size" : {
+            "value" : "large",
+            "type" : "RADIO"
+          },
+          "imageHeading" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "customImage" : {
+            "value" : {
+              "type" : "IMAGE_UPLOADER",
+              "filename" : "equifax.png",
+              "url" : "https://d3bql97l1ytoxn.cloudfront.net/fefcb8a5-9136-4ccc-92de-1640c96434b7/a54c493e-f0b8-4e31-9e01-6ce75c805f4c.png",
+              "alt" : ""
+            },
+            "type" : "IMAGE_UPLOADER"
+          },
+          "cardShadowColor" : {
+            "value" : "rgba(240, 111, 31, 0)",
+            "type" : "COLORPICKER"
+          },
+          "cardBorderRadius" : {
+            "value" : "12",
+            "type" : "SLIDER"
+          },
+          "productPricingColor" : {
+            "value" : "#474747",
+            "type" : "COLORPICKER"
+          },
+          "productHeading" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "productBackgroundColor" : {
+            "value" : "rgba(240, 111, 31, 0.12)",
+            "type" : "COLORPICKER"
+          }
+        },
+        "Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69" : {
+          "hasQuickview" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "productsList" : {
+            "value" : {
+              "contentType" : "dynamic",
+              "queries" : {
+                "sort" : "NEWEST_FIRST"
+              },
+              "editorData" : {
+                "localGroups" : { },
+                "localSubGroups" : { },
+                "order" : "NEWEST_FIRST"
+              },
+              "list" : [ 441984, 440934, 413577, 413576, 413464, 413463, 413462, 413461, 413460, 413459, 413458, 413457, 413456, 413455, 413454 ]
+            },
+            "type" : "PRODUCTS_LIST"
+          },
+          "isShadowVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "textBackgroundColor" : {
+            "value" : "#FFFFFF",
+            "type" : "COLORPICKER"
+          },
+          "sliderOptions" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "tileBackgroundColor" : {
+            "value" : "#fffafa",
+            "type" : "COLORPICKER"
+          },
+          "quickviewOptions" : {
+            "value" : [ "isQuickviewVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "sliderSettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "displayOptions" : {
+            "value" : [ "isDescriptionVisible", "isBadgesVisible", "isRibbonsVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "buttonLabel" : {
+            "value" : "uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "layout" : {
+            "value" : "tall",
+            "type" : "RADIO"
+          },
+          "maxRows" : {
+            "value" : 2,
+            "type" : "RADIO"
+          },
+          "size" : {
+            "value" : "medium",
+            "type" : "RADIO"
+          },
+          "borderRadius" : {
+            "value" : "12",
+            "type" : "SLIDER"
+          },
+          "quickviewDisplayOptions" : {
+            "value" : [ "isScreenshotVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "tileCtaLabel" : {
+            "value" : "Buy Now",
+            "type" : "INPUT"
+          },
+          "quickviewViewMode" : {
+            "value" : "noimg",
+            "type" : "RADIO"
+          },
+          "sliderTitle" : {
+            "value" : "uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.sliderTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "cardBorderRadius" : {
+            "value" : 8,
+            "type" : "SLIDER"
+          }
+        },
+        "StickyButtonPageScroll" : {
+          "visibleDesktop" : {
+            "value" : false,
+            "type" : "TOGGLE"
+          }
+        }
+      },
+      "orderableComponents" : [ {
+        "name" : "Carousel",
+        "id" : "Carousel:orderable:c06a8060-3014-49c8-80a4-18995de16c3c",
+        "isVisible" : true
+      }, {
+        "name" : "FeaturedProduct",
+        "id" : "FeaturedProduct:orderable:b0774fbb-6868-4428-a338-ce0c4e599a4e",
+        "isVisible" : true
+      }, {
+        "name" : "Slider",
+        "id" : "Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69",
+        "isVisible" : true
+      }, {
+        "name" : "Slider",
+        "id" : "Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685",
+        "isVisible" : true
+      }, {
+        "name" : "ProductGroups",
+        "id" : "ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7",
+        "isVisible" : true
+      }, {
+        "name" : "HeroBanner",
+        "id" : "HeroBanner:orderable:b5c320cf-e732-495e-97dc-1a8f0938669d",
+        "isVisible" : true
+      } ]
+    }
+  },
+  "globalStyles" : {
+    "namespaces" : {
+      "storefront" : {
+        "headingBaseSize" : {
+          "value" : "16px",
+          "type" : "DROPDOWN"
+        },
+        "bodyBaseSize" : {
+          "value" : "16px",
+          "type" : "DROPDOWN"
+        },
+        "ratingStars" : {
+          "value" : "#fcaf1a",
+          "type" : "COLORPICKER"
+        },
+        "fontUploadSpacer" : {
+          "value" : "uieditor.namespaces.storefront.fontUploadSpacer",
+          "isLocalized" : true,
+          "type" : "GROUP_HEADER"
+        },
+        "bodyFont" : {
+          "value" : {
+            "type" : "GOOGLE_FONTS",
+            "fontGroup" : {
+              "key" : "googleFonts",
+              "label" : "Google Fonts"
+            },
+            "fontFamily" : "Open Sans"
+          },
+          "type" : "FONT_PICKER"
+        },
+        "headingFont" : {
+          "value" : {
+            "type" : "GOOGLE_FONTS",
+            "fontGroup" : {
+              "key" : "googleFonts",
+              "label" : "Google Fonts"
+            },
+            "fontFamily" : "Ubuntu"
+          },
+          "type" : "FONT_PICKER"
+        },
+        "primaryColor" : {
+          "value" : "#0076ce",
+          "type" : "COLORPICKER"
+        },
+        "linkText" : {
+          "value" : "#0071c7",
+          "type" : "COLORPICKER"
+        },
+        "altEmphasisColor" : {
+          "value" : "#d14600",
+          "type" : "COLORPICKER"
+        },
+        "bodyText" : {
+          "value" : "#474747",
+          "type" : "COLORPICKER"
+        },
+        "logoImage" : {
+          "value" : {
+            "type" : "IMAGE_UPLOADER",
+            "filename" : "ACME_logo_white.png",
+            "url" : "https://d33na3ni6eqf5j.cloudfront.net/73199857-53b9-4c85-bed7-b1fdab531130/2923ad77-25ec-4eb6-8360-c3fdff436dd4.png"
+          },
+          "type" : "IMAGE_UPLOADER"
+        },
+        "pageBackground" : {
+          "value" : "#fafafa",
+          "type" : "COLORPICKER"
+        },
+        "titleText" : {
+          "value" : "#474747",
+          "type" : "COLORPICKER"
+        },
+        "headingSpacer" : {
+          "value" : "uieditor.namespaces.storefront.headingSpacer",
+          "isLocalized" : true,
+          "type" : "GROUP_HEADER"
+        },
+        "emphasisColor" : {
+          "value" : "#00802b",
+          "type" : "COLORPICKER"
+        },
+        "baseSpacer" : {
+          "value" : "uieditor.namespaces.storefront.baseSpacer",
+          "isLocalized" : true,
+          "type" : "GROUP_HEADER"
+        },
+        "secondaryColor" : {
+          "value" : "#f1f1f1",
+          "type" : "COLORPICKER"
+        }
+      }
+    },
+    "fontFamilies" : [ ]
+  },
+  "menus" : {
+    "HOME_BAR_MENU" : {
+      "menuType" : "MENU_LINK",
+      "menu" : [ {
+        "uuid" : "2a16c9dc-ce14-4acf-b8b7-2302cc79de7a",
+        "title" : {
+          "value" : "uieditor.menuItem.title.2a16c9dc-ce14-4acf-b8b7-2302cc79de7a",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.2a16c9dc-ce14-4acf-b8b7-2302cc79de7a",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "0531d045-d898-4ff5-9bd6-2e17dc74ba73",
+        "title" : {
+          "value" : "uieditor.menuItem.title.0531d045-d898-4ff5-9bd6-2e17dc74ba73",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.0531d045-d898-4ff5-9bd6-2e17dc74ba73",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "59e25e79-aa09-42b4-aaeb-5479481092a1",
+        "title" : {
+          "value" : "uieditor.menuItem.title.59e25e79-aa09-42b4-aaeb-5479481092a1",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.59e25e79-aa09-42b4-aaeb-5479481092a1",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "157f07c0-ace7-4787-8f74-eb82641ee568",
+        "title" : {
+          "value" : "uieditor.menuItem.title.157f07c0-ace7-4787-8f74-eb82641ee568",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.157f07c0-ace7-4787-8f74-eb82641ee568",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : false,
+        "isDisabled" : false
+      } ]
+    },
+    "BOTTOM_BAR_MENU" : {
+      "menuType" : "MENU_LINK",
+      "menu" : [ {
+        "uuid" : "09729997-817e-47a2-a2ae-baf308df1899",
+        "title" : {
+          "value" : "uieditor.menuItem.title.da86f9c0-5f32-4496-8f64-a0a6a1d57d6c",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.09729997-817e-47a2-a2ae-baf308df1899",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : true,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "7a2e301b-7607-4c03-ac08-70fbcef14eca",
+        "title" : {
+          "value" : "uieditor.menuItem.title.7a2e301b-7607-4c03-ac08-70fbcef14eca",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.7a2e301b-7607-4c03-ac08-70fbcef14eca",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "c3e66fcb-2441-4c3e-a4af-d128b571328c",
+        "title" : {
+          "value" : "uieditor.menuItem.title.c3e66fcb-2441-4c3e-a4af-d128b571328c",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.c3e66fcb-2441-4c3e-a4af-d128b571328c",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "09729997-817e-47a2-a2ae-baf308df1899",
+        "title" : {
+          "value" : "uieditor.menuItem.title.09729997-817e-47a2-a2ae-baf308df1899",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.09729997-817e-47a2-a2ae-baf308df1899",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : true,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "93edf021-a3e3-4686-b686-e7e41e84f61e",
+        "title" : {
+          "value" : "uieditor.menuItem.title.93edf021-a3e3-4686-b686-e7e41e84f61e",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.93edf021-a3e3-4686-b686-e7e41e84f61e",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : true,
+        "isVisible" : false,
+        "isDisabled" : false,
+        "editorType" : "HELP_CENTER"
+      } ]
+    },
+    "FOOTER_MENU" : {
+      "menuType" : "MENU_LINK",
+      "menu" : [ {
+        "uuid" : "50b2a008-d1df-42fa-9bdf-17a8446210d6",
+        "title" : {
+          "value" : "uieditor.menuItem.title.50b2a008-d1df-42fa-9bdf-17a8446210d6",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.50b2a008-d1df-42fa-9bdf-17a8446210d6",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : false,
+        "isDisabled" : false
+      } ]
+    },
+    "NAVIGATION_BAR_MENU" : {
+      "menuType" : "MENU_LINK",
+      "menu" : [ {
+        "uuid" : "f6950333-6b2d-4292-a58a-80fc373f5bf0",
+        "title" : {
+          "value" : "uieditor.menuItem.title.f6950333-6b2d-4292-a58a-80fc373f5bf0",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.f6950333-6b2d-4292-a58a-80fc373f5bf0",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false,
+        "editorType" : "PRODUCT_LINES",
+        "customData" : {
+          "externalUUID" : 3321
+        }
+      } ]
+    },
+    "AUXILIARY_BAR_MENU" : {
+      "menuType" : "MENU_LINK",
+      "menu" : [ {
+        "uuid" : "a7113cc8-a1bc-4e56-b5a4-a57001f8ec78",
+        "title" : {
+          "value" : "uieditor.menuItem.title.a7113cc8-a1bc-4e56-b5a4-a57001f8ec78",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.a7113cc8-a1bc-4e56-b5a4-a57001f8ec78",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      }, {
+        "uuid" : "46ca9ab2-0fc5-4533-b561-d0a6fdebd3db",
+        "title" : {
+          "value" : "uieditor.menuItem.title.46ca9ab2-0fc5-4533-b561-d0a6fdebd3db",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "link" : {
+          "value" : "uieditor.menuItem.link.46ca9ab2-0fc5-4533-b561-d0a6fdebd3db",
+          "isLocalized" : true,
+          "type" : "INPUT"
+        },
+        "type" : "CUSTOM_LINK",
+        "openInNewTab" : false,
+        "isVisible" : true,
+        "isDisabled" : false
+      } ]
+    }
+  }
+}

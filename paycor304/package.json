@@ -1,0 +1,21 @@
+{
+  "name": "paycor304",
+  "version": "0.0.84",
+  "description": "",
+  "metadata": {
+    "toolkitVersion": "5.0.3",
+    "themeTemplate": "@appdirect/sfb-theme-plaza",
+    "themeVersion": "0.0.84",
+    "createdBy": "external dev",
+    "createdAt": "2024-09-26T16:47:05.512Z"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@appdirect/sfb-theme-components": "^0.0.361",
+    "sass": "^1.57.1",
+    "sass-loader": "^10.1.1"
+  }
+}

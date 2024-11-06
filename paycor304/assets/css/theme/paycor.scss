@@ -1,0 +1,727 @@
+.roomy {
+	margin: 3vh 0;
+}
+
+.paycor-brand-grey-900 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: x-large;
+	font-weight: 900;
+	color:#58595b;
+}
+
+.paycor-brand-grey-300 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: smaller;
+	font-weight: 300;
+	color:#58595b;
+}
+
+.paycor-text-6d6e71 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: smaller;
+	font-weight: 300;
+	color:#6d6e71;
+}
+
+.paycor-brand-orange-700 {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: x-large;
+	font-weight: 700;
+	color:#f06f1f;
+}
+
+.paycor-h2-bold {
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: large;
+	font-weight: 700;
+	color:#58595b;
+}
+
+.paycor-text {
+	font-family: Arial, Helvetica, sans-serif !important;
+	color:#6d6e71;
+}
+
+.paycor-text-heavy {
+	font-weight: bolder;
+	color:#6d6e71;
+}
+
+// @@@ Global
+
+.headerHomeBar_wrapper {
+	.link_text {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+}
+
+.headerNavigation_item, .headerNavigation_btnMenu {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.pageOrderableContainer_container {
+	h2.slider_title {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+	.featuredProduct_details {
+		.featuredProduct_title, .featuredProduct_description {
+			font-family: Arial, Helvetica, sans-serif !important;
+		}
+	}
+	.productGroups_headerTitle {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+	.tile_detailsWrapper {
+		.tile_name, .tile_description {
+			font-family: Arial, Helvetica, sans-serif !important;
+		}
+	}
+	.cardStyle_wrapper {
+		.cardStyle_title, .cardStyle_description {
+			font-family: Arial, Helvetica, sans-serif !important;
+		}
+		.button_item--primary {
+			font-family: Arial, Helvetica, sans-serif !important;
+			color: #fff;
+			background-color: #193d6a;
+		}
+	}
+	.heroStyle_content {
+		.heroStyle_tagline {
+			font-family: Arial, Helvetica, sans-serif !important;
+		}
+		.heroStyle_title {
+			font-family: Arial, Helvetica, sans-serif !important;
+		}
+		.heroStyle_text {
+			font-family: Arial, Helvetica, sans-serif !important;
+		}
+	}
+}
+
+.headerHomeBar_homeBarNavLink:hover, .headerHomeBar_homeBarNavLink:focus {
+	color:#f06f1f !important;
+	fill:#f06f1f !important;
+}
+
+.slider_container {
+	.slider_navigationButton {
+		color: #193d6a;
+		background-color: #fff !important;
+	}
+}
+
+.inputSearch_submitBtn--custom-bg-color {
+	background-color: #193d6a !important;
+}
+
+.inputSearch_submitBtn--custom-bg-color:hover {
+	background-color: #f06f1f !important;
+}
+
+.headerNavigation_nav {
+	float: right !important;
+	.link_anchor {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+}
+
+p.headerAnnouncementBar_message {
+	display: none !important;
+}
+
+.headerNavigation_item:hover .headerNavigation_btnMenuText,
+.headerNavigation_item:hover .headerNavigation_link {
+  color: #f06f1f !important;
+}
+.carousel_slide {
+	.featuredProduct_tab, .featuredProduct_tabContainer {
+		font-family: Arial, Helvetica, sans-serif !important;;
+	}
+	.carouselSlideImage_title, .carouselSlideImage_description {
+		font-family: Arial, Helvetica, sans-serif !important;;
+	}
+}
+
+.featuredProduct_tab .featuredProduct_tab--tab-left .featuredProduct_tab--image-right,
+.featuredProduct_tab {
+	font-family: Arial, Helvetica, sans-serif !important;;
+}
+
+.tile_contentWrapper {
+	color: #58595b !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 18px;
+	line-height: 24px;
+	.tile_name {
+		// font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 20px;
+		// line-height: 24px;
+	}
+	.tile_description {
+		// color: #58595b !important;
+		// font-family: Arial, Helvetica, sans-serif;
+		// font-size: 20px;
+		line-height: 24px;
+	}
+	.tile_priceWrapper {
+		// color: #58595b !important;
+		// font-family: Arial, Helvetica, sans-serif;
+		// font-size: 20px;
+		line-height: 24px;
+		display: none !important;
+	}
+	.tile_merchandisingBadges {
+		margin:3vh 0;
+	}
+}
+
+.bottomBarMenu_title {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.slider_slide {
+	background-color:#fff !important;
+}
+
+// @@@ listing.html
+
+button.button_item, .paging_item a, .productListing_backToTop .button_text {
+	font-family: Arial, Helvetica, sans-serif !important;
+	// font-size: 18px;
+	// line-height: 24px;
+	color: #fff;
+	background-color: #193d6a;
+}
+
+.CategorySidebar-ListingPage,
+.productListingControls_hgroup,
+.productListingControls_results,
+.categorySidebar_form
+.categorySidebar_title,
+.productListingControls_title,
+.categorySidebar_legend {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.categorySidebar_form .categorySidebar_fieldset:nth-child(6) {
+	display: none;
+}
+
+.categorySidebar_header {
+	font-family: Arial, Helvetica, sans-serif !important;
+	.categorySidebar_title {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+	.checkbox_control {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+}
+
+.checkbox_group {
+	font-family: Arial, Helvetica, sans-serif !important;
+	.checkbox_label {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+}
+
+.rating_caption {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.productListingControls_filter {
+	font-family: Arial, Helvetica, sans-serif !important;
+	.productListingControls_toggleFiltersLabel,
+	.productListingControls_filterSort {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+}
+
+.productListingControls_filterSort {
+	font-family: Arial, Helvetica, sans-serif !important;
+	.select__value-container {
+		font-family: Arial, Helvetica, sans-serif !important;
+	}
+}
+
+.searchresults_block {
+	color:#58595b !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-weight: 700 !important;
+	span {
+		border-bottom:4px solid #f06f1f !important;
+	}
+}
+
+.productListingCard_compare { display: none !important; }
+
+.productListing_results {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#ProductListing-ListingPage {
+
+	.productListingCard_wrapper {
+		border: 1px solid #939598;
+		.productListingCard_title {
+			font-family: Arial, Helvetica, sans-serif !important;
+			color: #939598 !important;
+			font-weight: bolder;
+		}
+		.productListingCard_caption {
+			font-family: Arial, Helvetica, sans-serif !important;
+			color: #a7a6a4 !important;
+		}
+		.productListingCard_overview {
+			font-family: Arial, Helvetica, sans-serif !important;
+			color: #a7a6a4 !important;
+		}
+		.productListingCard_pricing {
+			display: none !important;
+		}
+		.productListingCard_footer {
+			display: none !important;
+		}
+	}
+
+}
+
+// @@@ product.html
+
+.productBanner_wrapper {
+	display: none !important;
+}
+
+.productImageViewer_main, .productViewerDescription_description, .productViewerDescription_row {
+	display: none !important;
+}
+
+.productSimilarApps_container .slider_container {
+	background-color: #fce2d2;
+	padding: 2% 3%;
+}
+
+nav.bottomBarMenu_nav {
+	justify-content: center !important;
+}
+
+// @@@ product-features/integration.html
+
+section.featureDetails_wrapper {
+	display: none !important;
+}
+
+.footerNewsletterSocial_section--top {
+	display: none !important;
+}
+
+.topFeatures_buttonWrapper {
+	display: none !important;
+}
+
+.additionalInfo_container {
+	display: none !important;
+}
+
+// @@@ Custom widget components @@@
+
+#pycwOverview {
+
+	.headline40 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.blocktext {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.sidebar {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 24px;
+		font-style: italic;
+		background-color: #f7f7f7;
+		h2.title {
+			font-family: Arial, Helvetica, sans-serif !important;
+			font-size: 16px;
+			line-height: 24px;
+			font-weight: 900;
+			font-style: normal;
+		}
+		.qref {
+			font-style: normal;
+		}
+
+		.lexiQ {
+			height: 28px;
+			width: 29px;
+			align-items: center;
+			padding-top: 3px;
+		}
+	}
+
+}
+
+#PageOrderableContainerProfilePage {
+
+	.topFeatures_container {
+
+		color: #6d6e71 !important;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		line-height: 24px;
+
+		h2.topFeatures_title {
+			color: #58595b !important;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 40px;
+			line-height: 40px;
+		}
+
+		.featureCard_title--heading {
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: 900;
+		}
+
+		button {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+	}
+
+}
+
+.productReviews_rating {
+	display: none;
+}
+
+.productReviews_content {
+	display: none;
+	color: #58595b !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+
+	.productReviews_title {
+		color: #58595b !important;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		line-height: 40px;
+		padding-bottom: 20px;
+	}
+
+	button.navy_button, .buttonIcon_button--button-primary {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		color: #fff;
+		background-color: #193d6a;
+	}
+
+}
+
+#ProductSimilarApps {
+
+	h2.slider_title {
+		color: #58595b !important;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+}
+
+#pycwProductBanner {
+	display: flex;
+	width: 100%;
+
+	&_container {
+		color: var(--text-color, #474747);
+		background-color: var(--background-color, #5FF5F5);
+
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 10px 25px 25px 25px;
+	}
+
+	.headline { font-family: Arial, Helvetica, sans-serif; font-size: 45px; line-height: 60px;}
+
+	p { font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 24px;}
+
+	button {
+		font-size: 18px;
+		line-height: 24px;
+		color: #fff;
+		background-color: #193d6a;
+	}
+
+	&_description {
+		&--bigger {
+			font-size: 130%;
+		}
+		&--standard {
+			font-size: 100%;
+		}
+		&--smaller {
+			font-size: 70%;
+		}
+		&--bold {
+			font-weight: bold;
+		}
+		&--italic {
+			font-style: italic;
+		}
+		&--strikethrough {
+			text-decoration: line-through;
+		}
+		&--underline {
+			text-decoration: underline;
+		}
+	}
+
+	&_row {
+		display: flex;
+		flex-direction: row;
+		flex-grow: 1;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.logoslot {
+		padding:0;
+	}
+
+	img.logo {
+		height:165px;
+		width:165px;
+		margin-bottom: 1vh;
+	}
+
+	.headline {
+		line-height:1.2;
+	}
+
+}
+
+#pycwRequestApp {
+
+	height: 360px;
+	text-align:center;
+	border:"2px dotted red";
+	width: 100%;
+	background-color: #f06f1f;
+	padding: 10% auto I !important;
+	margin: 0 auto !important;
+	margin-top: -2% !important;
+	background-image: url('https://d3bql97l1ytoxn.cloudfront.net/channel_custom_style_resources/img2832428758372544097?66411257435b4845770c919bdb7026f8');
+
+	.topSpacer {
+		padding-top:10em;
+	}
+
+	.text {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 44px !important;
+		font-weight: 900;
+		color: #fff;
+	}
+
+	.navy_button, button.navy_button, .buttonIcon_button--button-primary {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		color: #fff;
+		background-color: #193d6a !important;
+		border: 0 !important;
+	}
+
+	a { margin-left: 2em; }
+
+	.navy_button:hover, button.navy_button:hover, .buttonIcon_button--button-primary:hover {
+		color: #193d6a !important;
+		background-color: #fff !important;
+		cursor: pointer;
+	}
+
+}
+
+#pycwIntegrationDetails {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 24px;
+	color: #58595b !important;
+	margin-bottom:2em;
+
+	.headline40 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		line-height: 40px;
+		font-weight: 900;
+	}
+
+	.sidebar {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 12px;
+		line-height: 24px;
+		h2.title {
+			font-family: Arial, Helvetica, sans-serif !important;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+	.blocktext, .blocktext div, .blocktext p  {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.integrationguideblock {
+		display:inline-flex;
+		margin-left:1.5em;
+		.integrationguideslot {
+			display:inline-flex;
+			margin-left:1.5em;
+			img {
+				height:2em;
+				width:2.5em !important;
+				padding-right:1em;
+			}
+			span {
+				padding-right:1em;
+			}
+		}
+	}
+}
+
+#pycwPromotion {
+	line-height: 3.4em !important;
+}
+
+#pycwRibbon {
+	display: flex;
+	width: 100%;
+	height: 53px;
+	align-items: center;
+	.image_item {
+		height: 42px !important;
+		width: 44px !important;
+		margin-top: 10px !important;
+		margin-right: 20px !important;
+		padding-right: 10px !important;
+	}
+}
+
+#pycwSupportContainer {
+	margin-bottom:2em;
+}
+
+#pycwSupport {
+
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 18px;
+	line-height: 24px;
+	color: #58595b !important;
+
+	.headline40 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 40px;
+		line-height: 40px;
+		font-weight: 900;
+	}
+
+	.headline30 {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 900;
+	}
+
+	.title {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 16px;
+		line-height: 24px;
+		font-style: normal;
+	}
+
+	.blocktext, .blocktext div, .blocktext p  {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	blockquote {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 12px;
+		line-height: 24px;
+		font-weight: lighter;
+		border-left: none;
+	}
+
+	.doctitle {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+
+	.docsummary {
+		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 300;
+	}
+
+	.sidebar {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 24px;
+		h2.title {
+			// font-family: Arial, Helvetica, sans-serif !important;
+			// font-size: 16px;
+			// line-height: 24px;
+			font-weight: 900;
+			// font-style: normal;
+		}
+	}
+
+	#supportlinkblock {
+		display:inline-flex;
+		margin-left:1.5em;
+
+		img { height:2em; width:5.5em !important; padding-right:1em; }
+		span { padding-right:1em; }
+
+	}
+
+	#documenttileblock {
+		height:3em;
+		width:3em;
+		overflow:hidden;
+
+		img {
+			height:2em;
+			width:5.5em !important;
+			padding-right:1em;
+		}
+
+	}
+
+}
+
+/* Dan Homepage Updates */
+
+.home-container {
+	.pageOrderableContainer_item:nth-child(3) { /* 3rd Row */
+		background-color: #FCE2D2;
+	}
+}

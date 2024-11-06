@@ -62,6 +62,7 @@
 .pageOrderableContainer_container {
 	h2.slider_title {
 		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 40px;
 	}
 	.featuredProduct_details {
 		.featuredProduct_title, .featuredProduct_description {
@@ -70,6 +71,7 @@
 	}
 	.productGroups_headerTitle {
 		font-family: Arial, Helvetica, sans-serif !important;
+		font-size: 40px;
 	}
 	.tile_detailsWrapper {
 		.tile_name, .tile_description {
@@ -181,7 +183,7 @@ p.headerAnnouncementBar_message {
 }
 
 .slider_slide {
-	background-color:#fff !important;
+	/* background-color:#fff !important; */
 }
 
 // @@@ listing.html
@@ -721,7 +723,85 @@ section.featureDetails_wrapper {
 /* Dan Homepage Updates */
 
 .home-container {
+
+	.slider_header {
+		margin-bottom: 40px;
+	}
+
 	.pageOrderableContainer_item:nth-child(3) { /* 3rd Row */
 		background-color: #FCE2D2;
+		h2.slider_title:after {
+			width: 30px; 
+			height: 50px;
+			content: '';
+			background-image: url('../../images/header-accent-1.png');
+			position: absolute;
+    		display: inline-block;
+			top: -15px;
+		}
+		.slick-slider::before {
+			content: '';
+			z-index: 10;
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			background: linear-gradient(-90deg, rgba(252,226,210) 0%, rgba(0, 0, 0, 0) 10%);
+		}
+	}
+
+	.pageOrderableContainer_item:nth-child(4) { /* 3rd Row */
+		h2.slider_title:after {
+			width: 55px; 
+			height: 53px;
+			content: '';
+			background-image: url('../../images/header-accent-2.png');
+			position: absolute;
+    		display: inline-block;
+			top: -16px;
+		}
+		.slick-slider::before {
+			content: '';
+			z-index: 10;
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			background: linear-gradient(-90deg, rgba(250,250,250) 0%, rgba(0, 0, 0, 0) 10%);
+		}
+	}
+
+	.pageOrderableContainer_item:nth-child(5) { /* 3rd Row */
+		div.productGroups_headerTitle:after {
+			width: 30px; 
+			height: 50px;
+			content: '';
+			background-image: url('../../images/header-accent-1.png');
+			position: absolute;
+    		display: inline-block;
+			top: -5px;
+		}
+	}
+
+	.pageOrderableContainer_item:nth-child(3),.pageOrderableContainer_item:nth-child(4) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.pageOrderableContainer_item:nth-child(5) {
+		background: #eeeeee;
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.pageOrderableContainer_item:nth-child(6) .heroStyle_wrapper {
+		padding-top: 40px;
+	}
+
+}
+
+
+
+.home-container {
+	.carouselSlideImage_content {
+		border-radius: 0px;
 	}
 }

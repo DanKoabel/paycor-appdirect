@@ -13,14 +13,14 @@ const stringTable = {
 export function Introduction() {
 	return (
 		<div {...n()} id="pycwRequestApp">
-			<center>
 				<div class="topSpacer">
-					<span className="text">{stringTable.text}</span>
-					<a href={stringTable.link} target="_blank">
-						<Button class="navy_button" type="primary" wide>{stringTable.label}</Button>
-					</a>
+					<div class="pycwRequestAppInnerWrap">
+						<span className="text">{stringTable.text}</span>
+						<a href={stringTable.link} target="_blank">
+							<Button class="navy_button" type="primary" wide>{stringTable.label}</Button>
+						</a>
+					</div>
 				</div>
-			</center>
 		</div>
 	)
 }

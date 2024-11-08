@@ -2,20 +2,6 @@
   "pages" : {
     "profile" : {
       "components" : {
-        "ProductDescription:orderable:59db9f73-9caa-48b2-9df9-da98413e7de8" : {
-          "isAddonsVisible" : {
-            "value" : true,
-            "type" : "TOGGLE"
-          },
-          "isPricesVisible" : {
-            "value" : true,
-            "type" : "TOGGLE"
-          },
-          "layout" : {
-            "value" : "horizontal-thumbnails",
-            "type" : "DROPDOWN"
-          }
-        },
         "ProductBanner" : {
           "bannerBackgroundColor" : {
             "value" : "#ffffff",
@@ -47,6 +33,20 @@
           },
           "productNameSize" : {
             "value" : "medium",
+            "type" : "DROPDOWN"
+          }
+        },
+        "ProductDescription:orderable:59db9f73-9caa-48b2-9df9-da98413e7de8" : {
+          "isAddonsVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "isPricesVisible" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "layout" : {
+            "value" : "horizontal-thumbnails",
             "type" : "DROPDOWN"
           }
         },
@@ -134,16 +134,6 @@
             "type" : "SLIDER"
           }
         },
-        "ProductReviews:orderable:7d021438-3800-4fb9-9577-e809dcf15df7" : {
-          "isAvatarVisible" : {
-            "value" : true,
-            "type" : "TOGGLE"
-          },
-          "position" : {
-            "value" : "right",
-            "type" : "DROPDOWN"
-          }
-        },
         "ProductTabMenu" : {
           "linkSpacing" : {
             "value" : "26",
@@ -221,18 +211,18 @@
             "type" : "SLIDER"
           }
         },
-        "StickyButtonPageScroll" : {
-          "visibleDesktop" : {
-            "value" : false,
+        "ProductReviews:orderable:7d021438-3800-4fb9-9577-e809dcf15df7" : {
+          "isAvatarVisible" : {
+            "value" : true,
             "type" : "TOGGLE"
+          },
+          "position" : {
+            "value" : "right",
+            "type" : "DROPDOWN"
           }
         },
-        "ProductTopFeatures:orderable:d7254b33-ac88-4945-a248-edf6a87a2b16" : {
-          "numberOfColumns" : {
-            "value" : "two",
-            "type" : "DROPDOWN"
-          },
-          "withImages" : {
+        "StickyButtonPageScroll" : {
+          "visibleDesktop" : {
             "value" : false,
             "type" : "TOGGLE"
           }
@@ -262,6 +252,16 @@
           "sideBarBorder" : {
             "value" : "#CBCBCB",
             "type" : "COLORPICKER"
+          }
+        },
+        "ProductTopFeatures:orderable:d7254b33-ac88-4945-a248-edf6a87a2b16" : {
+          "numberOfColumns" : {
+            "value" : "two",
+            "type" : "DROPDOWN"
+          },
+          "withImages" : {
+            "value" : false,
+            "type" : "TOGGLE"
           }
         }
       },
@@ -1017,26 +1017,26 @@
             "value" : "",
             "type" : "GROUP_HEADER"
           },
-          "displayUpperTitle" : {
-            "value" : false,
-            "type" : "TOGGLE_CHECK"
-          },
           "contentSettings" : {
             "value" : "",
             "type" : "GROUP_HEADER"
+          },
+          "displayUpperTitle" : {
+            "value" : false,
+            "type" : "TOGGLE_CHECK"
           },
           "productGroupsTabTitle" : {
             "value" : "uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.productGroupsTabTitle",
             "isLocalized" : true,
             "type" : "INPUT"
           },
-          "rowGap" : {
-            "value" : 28,
-            "type" : "SLIDER"
-          },
           "cardBorderColor" : {
             "value" : "#ffffff",
             "type" : "COLORPICKER"
+          },
+          "rowGap" : {
+            "value" : 28,
+            "type" : "SLIDER"
           },
           "displayHeaderDescription" : {
             "value" : true,
@@ -1058,13 +1058,13 @@
             "value" : "center",
             "type" : "DROPDOWN"
           },
-          "buttonType" : {
-            "value" : "primary",
-            "type" : "RADIO"
-          },
           "displayBorder" : {
             "value" : true,
             "type" : "TOGGLE_CHECK"
+          },
+          "buttonType" : {
+            "value" : "primary",
+            "type" : "RADIO"
           },
           "titleColor" : {
             "value" : "#474747",
@@ -1091,7 +1091,7 @@
             "type" : "DROPDOWN"
           },
           "cardCornerRadius" : {
-            "value" : "15",
+            "value" : "0",
             "type" : "SLIDER"
           },
           "displayButton" : {
@@ -1289,46 +1289,46 @@
             },
             "type" : "MENU_LINK"
           },
+          "imageCornerRadius" : {
+            "value" : 0,
+            "type" : "SLIDER"
+          },
           "headerDescription" : {
             "value" : "uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.headerDescription",
             "isLocalized" : true,
             "type" : "TEXTAREA"
           },
-          "imageCornerRadius" : {
-            "value" : 0,
-            "type" : "SLIDER"
+          "cardBackgroundColor" : {
+            "value" : "#ffffff",
+            "type" : "COLORPICKER"
           },
           "componentSettings" : {
             "value" : "",
             "type" : "GROUP_HEADER"
           },
-          "cardBackgroundColor" : {
-            "value" : "#ffffff",
-            "type" : "COLORPICKER"
+          "columnGap" : {
+            "value" : "9",
+            "type" : "SLIDER"
           },
           "size" : {
             "value" : "medium",
             "type" : "RADIO"
           },
-          "columnGap" : {
-            "value" : "9",
-            "type" : "SLIDER"
+          "displayShadow" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
           },
           "textAlignment" : {
             "value" : "center",
             "type" : "DROPDOWN"
           },
-          "displayShadow" : {
-            "value" : true,
-            "type" : "TOGGLE_CHECK"
+          "headerTextAlignment" : {
+            "value" : "left",
+            "type" : "DROPDOWN"
           },
           "style" : {
             "value" : "card",
             "type" : "RADIO"
-          },
-          "headerTextAlignment" : {
-            "value" : "left",
-            "type" : "DROPDOWN"
           },
           "headerTitle" : {
             "value" : "uieditor.home.ProductGroups:orderable:5cd5fc27-823f-4497-9b7d-b75034e835f7.headerTitle",
@@ -1337,6 +1337,10 @@
           }
         },
         "Carousel:orderable:c06a8060-3014-49c8-80a4-18995de16c3c" : {
+          "backgroundColor" : {
+            "value" : "#fefafa",
+            "type" : "COLORPICKER"
+          },
           "slides" : {
             "value" : [ {
               "contentType" : "IMAGE_ONLY",
@@ -1409,23 +1413,19 @@
             } ],
             "type" : "SLIDES"
           },
-          "backgroundColor" : {
-            "value" : "#fefafa",
-            "type" : "COLORPICKER"
-          },
           "delay" : {
             "value" : 5,
             "type" : "DROPDOWN"
-          },
-          "isDisplayCarets" : {
-            "value" : true,
-            "type" : "TOGGLE_CHECK"
           },
           "backgroundImg" : {
             "value" : {
               "alt" : ""
             },
             "type" : "IMAGE_UPLOADER"
+          },
+          "isDisplayCarets" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
           },
           "isAutorotate" : {
             "value" : true,
@@ -1439,28 +1439,24 @@
             "value" : "uieditor.sfbComponent.carousel.caretsColorTheme.dark",
             "type" : "DROPDOWN"
           },
-          "isDisplayDots" : {
-            "value" : true,
-            "type" : "TOGGLE_CHECK"
-          },
           "backgroundType" : {
             "value" : "color",
             "type" : "RADIO"
           },
-          "height" : {
-            "value" : 400,
-            "type" : "DROPDOWN"
+          "isDisplayDots" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
           },
           "isDisplayCaretsOnHover" : {
             "value" : true,
             "type" : "TOGGLE_CHECK"
+          },
+          "height" : {
+            "value" : "555",
+            "type" : "DROPDOWN"
           }
         },
         "Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685" : {
-          "hasQuickview" : {
-            "value" : true,
-            "type" : "TOGGLE"
-          },
           "productsList" : {
             "value" : {
               "contentType" : "dynamic",
@@ -1470,38 +1466,42 @@
             },
             "type" : "PRODUCTS_LIST"
           },
+          "hasQuickview" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
           "isShadowVisible" : {
             "value" : true,
             "type" : "TOGGLE_CHECK"
           },
-          "textBackgroundColor" : {
-            "value" : "#FFFFFF",
+          "tileBackgroundColor" : {
+            "value" : "rgba(244, 242, 242, 0)",
             "type" : "COLORPICKER"
           },
           "sliderOptions" : {
             "value" : true,
             "type" : "TOGGLE"
           },
-          "tileBackgroundColor" : {
-            "value" : "rgba(244, 242, 242, 0)",
+          "textBackgroundColor" : {
+            "value" : "#FFFFFF",
             "type" : "COLORPICKER"
           },
           "quickviewOptions" : {
             "value" : [ "isQuickviewVisible" ],
             "type" : "CHECKBOX"
           },
-          "sliderSettings" : {
-            "value" : "",
-            "type" : "GROUP_HEADER"
+          "buttonLabel" : {
+            "value" : "uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
           },
           "displayOptions" : {
             "value" : [ "isDescriptionVisible", "isRatingsVisible" ],
             "type" : "CHECKBOX"
           },
-          "buttonLabel" : {
-            "value" : "uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.buttonLabel",
-            "isLocalized" : true,
-            "type" : "INPUT"
+          "sliderSettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
           },
           "layout" : {
             "value" : "square",
@@ -1511,33 +1511,124 @@
             "value" : 2,
             "type" : "RADIO"
           },
-          "size" : {
-            "value" : "small",
-            "type" : "RADIO"
-          },
           "borderRadius" : {
             "value" : 8,
             "type" : "SLIDER"
           },
+          "size" : {
+            "value" : "small",
+            "type" : "RADIO"
+          },
           "quickviewDisplayOptions" : {
             "value" : [ "isScreenshotVisible" ],
             "type" : "CHECKBOX"
-          },
-          "tileCtaLabel" : {
-            "value" : "Buy Now",
-            "type" : "INPUT"
-          },
-          "quickviewViewMode" : {
-            "value" : "default",
-            "type" : "DROPDOWN"
           },
           "sliderTitle" : {
             "value" : "uieditor.home.Slider:orderable:a34bf07d-1553-4e7d-86aa-c9ed2df75685.sliderTitle",
             "isLocalized" : true,
             "type" : "INPUT"
           },
+          "quickviewViewMode" : {
+            "value" : "default",
+            "type" : "DROPDOWN"
+          },
+          "tileCtaLabel" : {
+            "value" : "Buy Now",
+            "type" : "INPUT"
+          },
           "cardBorderRadius" : {
-            "value" : 8,
+            "value" : "0",
+            "type" : "SLIDER"
+          }
+        },
+        "Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69" : {
+          "productsList" : {
+            "value" : {
+              "contentType" : "dynamic",
+              "queries" : {
+                "sort" : "NEWEST_FIRST"
+              },
+              "editorData" : {
+                "localGroups" : { },
+                "localSubGroups" : { },
+                "order" : "NEWEST_FIRST"
+              },
+              "list" : [ 441984, 440934, 413577, 413576, 413464, 413463, 413462, 413461, 413460, 413459, 413458, 413457, 413456, 413455, 413454 ]
+            },
+            "type" : "PRODUCTS_LIST"
+          },
+          "hasQuickview" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "isShadowVisible" : {
+            "value" : true,
+            "type" : "TOGGLE_CHECK"
+          },
+          "tileBackgroundColor" : {
+            "value" : "#fffafa",
+            "type" : "COLORPICKER"
+          },
+          "sliderOptions" : {
+            "value" : true,
+            "type" : "TOGGLE"
+          },
+          "textBackgroundColor" : {
+            "value" : "#FFFFFF",
+            "type" : "COLORPICKER"
+          },
+          "quickviewOptions" : {
+            "value" : [ "isQuickviewVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "buttonLabel" : {
+            "value" : "uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.buttonLabel",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "displayOptions" : {
+            "value" : [ "isDescriptionVisible", "isBadgesVisible", "isRibbonsVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "sliderSettings" : {
+            "value" : "",
+            "type" : "GROUP_HEADER"
+          },
+          "layout" : {
+            "value" : "tall",
+            "type" : "RADIO"
+          },
+          "maxRows" : {
+            "value" : 2,
+            "type" : "RADIO"
+          },
+          "borderRadius" : {
+            "value" : "12",
+            "type" : "SLIDER"
+          },
+          "size" : {
+            "value" : "medium",
+            "type" : "RADIO"
+          },
+          "quickviewDisplayOptions" : {
+            "value" : [ "isScreenshotVisible" ],
+            "type" : "CHECKBOX"
+          },
+          "sliderTitle" : {
+            "value" : "uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.sliderTitle",
+            "isLocalized" : true,
+            "type" : "INPUT"
+          },
+          "quickviewViewMode" : {
+            "value" : "noimg",
+            "type" : "RADIO"
+          },
+          "tileCtaLabel" : {
+            "value" : "Buy Now",
+            "type" : "INPUT"
+          },
+          "cardBorderRadius" : {
+            "value" : "0",
             "type" : "SLIDER"
           }
         },
@@ -1547,7 +1638,7 @@
             "type" : "RADIO"
           },
           "tabBorderRadius" : {
-            "value" : 8,
+            "value" : 0,
             "type" : "SLIDER"
           },
           "cardBorderColor" : {
@@ -1664,7 +1755,7 @@
             "type" : "COLORPICKER"
           },
           "cardBorderRadius" : {
-            "value" : "12",
+            "value" : "0",
             "type" : "SLIDER"
           },
           "productPricingColor" : {
@@ -1678,97 +1769,6 @@
           "productBackgroundColor" : {
             "value" : "rgba(240, 111, 31, 0.12)",
             "type" : "COLORPICKER"
-          }
-        },
-        "Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69" : {
-          "hasQuickview" : {
-            "value" : true,
-            "type" : "TOGGLE"
-          },
-          "productsList" : {
-            "value" : {
-              "contentType" : "dynamic",
-              "queries" : {
-                "sort" : "NEWEST_FIRST"
-              },
-              "editorData" : {
-                "localGroups" : { },
-                "localSubGroups" : { },
-                "order" : "NEWEST_FIRST"
-              },
-              "list" : [ 441984, 440934, 413577, 413576, 413464, 413463, 413462, 413461, 413460, 413459, 413458, 413457, 413456, 413455, 413454 ]
-            },
-            "type" : "PRODUCTS_LIST"
-          },
-          "isShadowVisible" : {
-            "value" : true,
-            "type" : "TOGGLE_CHECK"
-          },
-          "textBackgroundColor" : {
-            "value" : "#FFFFFF",
-            "type" : "COLORPICKER"
-          },
-          "sliderOptions" : {
-            "value" : true,
-            "type" : "TOGGLE"
-          },
-          "tileBackgroundColor" : {
-            "value" : "#fffafa",
-            "type" : "COLORPICKER"
-          },
-          "quickviewOptions" : {
-            "value" : [ "isQuickviewVisible" ],
-            "type" : "CHECKBOX"
-          },
-          "sliderSettings" : {
-            "value" : "",
-            "type" : "GROUP_HEADER"
-          },
-          "displayOptions" : {
-            "value" : [ "isDescriptionVisible", "isBadgesVisible", "isRibbonsVisible" ],
-            "type" : "CHECKBOX"
-          },
-          "buttonLabel" : {
-            "value" : "uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.buttonLabel",
-            "isLocalized" : true,
-            "type" : "INPUT"
-          },
-          "layout" : {
-            "value" : "tall",
-            "type" : "RADIO"
-          },
-          "maxRows" : {
-            "value" : 2,
-            "type" : "RADIO"
-          },
-          "size" : {
-            "value" : "medium",
-            "type" : "RADIO"
-          },
-          "borderRadius" : {
-            "value" : "12",
-            "type" : "SLIDER"
-          },
-          "quickviewDisplayOptions" : {
-            "value" : [ "isScreenshotVisible" ],
-            "type" : "CHECKBOX"
-          },
-          "tileCtaLabel" : {
-            "value" : "Buy Now",
-            "type" : "INPUT"
-          },
-          "quickviewViewMode" : {
-            "value" : "noimg",
-            "type" : "RADIO"
-          },
-          "sliderTitle" : {
-            "value" : "uieditor.home.Slider:orderable:906daff8-d299-42ba-b873-91bf4798ba69.sliderTitle",
-            "isLocalized" : true,
-            "type" : "INPUT"
-          },
-          "cardBorderRadius" : {
-            "value" : 8,
-            "type" : "SLIDER"
           }
         },
         "StickyButtonPageScroll" : {
@@ -1808,6 +1808,12 @@
   "globalStyles" : {
     "namespaces" : {
       "storefront" : {
+        "darkLogo" : {
+          "value" : {
+            "alt" : ""
+          },
+          "type" : "IMAGE_UPLOADER"
+        },
         "headingBaseSize" : {
           "value" : "16px",
           "type" : "DROPDOWN"
@@ -1866,8 +1872,9 @@
         "logoImage" : {
           "value" : {
             "type" : "IMAGE_UPLOADER",
-            "filename" : "ACME_logo_white.png",
-            "url" : "https://d33na3ni6eqf5j.cloudfront.net/73199857-53b9-4c85-bed7-b1fdab531130/2923ad77-25ec-4eb6-8360-c3fdff436dd4.png"
+            "filename" : "PaycorLogo_wTagline-EmpoweringLeaders-All_Horizontal.png",
+            "url" : "https://d3bql97l1ytoxn.cloudfront.net/eb832af4-4ad0-4d7e-b609-25ffc0ad93c9/357b86c2-f2df-4f82-bb74-077399e2a2e1.png",
+            "alt" : ""
           },
           "type" : "IMAGE_UPLOADER"
         },

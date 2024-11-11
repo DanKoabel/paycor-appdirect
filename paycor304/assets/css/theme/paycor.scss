@@ -941,6 +941,12 @@ section.featureDetails_wrapper {
 	}
 }
 .productListing_gridRow {
+	.productListingCard_badges {
+		padding-top: 10px;
+	}
+	.productListingCard_content {
+		padding-bottom: 0px;
+	}
 	.productListingCard_productBadges img {
 		height: unset;
 		width: unset;

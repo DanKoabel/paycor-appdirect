@@ -940,3 +940,25 @@ section.featureDetails_wrapper {
 		box-shadow: none;
 	}
 }
+.productListing_gridRow {
+	.productListingCard_productBadges img {
+		height: unset;
+		width: unset;
+		max-height: 30px;
+		max-width: 30px;
+		align-self: center;
+
+	}
+	.productListingCard_productBadgesItem {
+		display: flex;
+		margin-top: 0px;
+	}
+}
+@media (max-width: 767.98px) {
+	.productListing_gridRow .productListingCard_productBadges img {
+	height: unset;
+	width: unset;
+	max-height: 22px;
+	max-width: 22px;
+	}
+}
